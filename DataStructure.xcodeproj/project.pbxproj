@@ -14,10 +14,18 @@
 			remoteGlobalIDString = 71947295279048A400E506A9;
 			remoteInfo = 1_Stacks;
 		};
+		719472BC27904D9400E506A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719472B827904D9400E506A9 /* 2_Linked lists.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 719472AE27904D9400E506A9;
+			remoteInfo = "2_Linked lists";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7194729F279048A400E506A9 /* 1_Stacks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 1_Stacks.xcodeproj; path = 1_Stacks/1_Stacks.xcodeproj; sourceTree = "<group>"; };
+		719472B827904D9400E506A9 /* 2_Linked lists.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "2_Linked lists.xcodeproj"; path = "2_Linked lists/2_Linked lists.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -25,6 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				7194729F279048A400E506A9 /* 1_Stacks.xcodeproj */,
+				719472B827904D9400E506A9 /* 2_Linked lists.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -32,6 +41,14 @@
 			isa = PBXGroup;
 			children = (
 				719472A4279048A400E506A9 /* 1_Stacks */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719472B927904D9400E506A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719472BD27904D9400E506A9 /* 2_Linked lists */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +77,10 @@
 					ProductGroup = 719472A0279048A400E506A9 /* Products */;
 					ProjectRef = 7194729F279048A400E506A9 /* 1_Stacks.xcodeproj */;
 				},
+				{
+					ProductGroup = 719472B927904D9400E506A9 /* Products */;
+					ProjectRef = 719472B827904D9400E506A9 /* 2_Linked lists.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -73,6 +94,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = 1_Stacks;
 			remoteRef = 719472A3279048A400E506A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		719472BD27904D9400E506A9 /* 2_Linked lists */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "2_Linked lists";
+			remoteRef = 719472BC27904D9400E506A9 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
