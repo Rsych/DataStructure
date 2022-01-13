@@ -6,11 +6,34 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		719472A3279048A400E506A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7194729F279048A400E506A9 /* 1_Stacks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 71947295279048A400E506A9;
+			remoteInfo = 1_Stacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7194729F279048A400E506A9 /* 1_Stacks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 1_Stacks.xcodeproj; path = 1_Stacks/1_Stacks.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		719472852790488200E506A9 = {
 			isa = PBXGroup;
 			children = (
+				7194729F279048A400E506A9 /* 1_Stacks.xcodeproj */,
 			);
+			sourceTree = "<group>";
+		};
+		719472A0279048A400E506A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719472A4279048A400E506A9 /* 1_Stacks */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -32,11 +55,27 @@
 			);
 			mainGroup = 719472852790488200E506A9;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 719472A0279048A400E506A9 /* Products */;
+					ProjectRef = 7194729F279048A400E506A9 /* 1_Stacks.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		719472A4279048A400E506A9 /* 1_Stacks */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = 1_Stacks;
+			remoteRef = 719472A3279048A400E506A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin XCBuildConfiguration section */
 		7194728A2790488200E506A9 /* Debug */ = {
