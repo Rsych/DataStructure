@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		711DE45D2791E7D700B56DC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711DE4552791E7D700B56DC8 /* Binary trees.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 711DE44B2791E7D700B56DC8;
+			remoteInfo = "Binary trees";
+		};
 		719472A3279048A400E506A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7194729F279048A400E506A9 /* 1_Stacks.xcodeproj */;
@@ -38,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		711DE4552791E7D700B56DC8 /* Binary trees.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Binary trees.xcodeproj"; path = "Binary trees/Binary trees.xcodeproj"; sourceTree = "<group>"; };
 		7194729F279048A400E506A9 /* 1_Stacks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 1_Stacks.xcodeproj; path = 1_Stacks/1_Stacks.xcodeproj; sourceTree = "<group>"; };
 		719472B827904D9400E506A9 /* 2_Linked lists.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "2_Linked lists.xcodeproj"; path = "2_Linked lists/2_Linked lists.xcodeproj"; sourceTree = "<group>"; };
 		719472D127907A0000E506A9 /* 3_Queues and deques.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "3_Queues and deques.xcodeproj"; path = "3_Queues and deques/3_Queues and deques.xcodeproj"; sourceTree = "<group>"; };
@@ -45,6 +53,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		711DE4562791E7D700B56DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711DE45E2791E7D700B56DC8 /* Binary trees */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		719472852790488200E506A9 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +68,7 @@
 				719472B827904D9400E506A9 /* 2_Linked lists.xcodeproj */,
 				719472D127907A0000E506A9 /* 3_Queues and deques.xcodeproj */,
 				719472EA2790960700E506A9 /* 4_Trees.xcodeproj */,
+				711DE4552791E7D700B56DC8 /* Binary trees.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +140,10 @@
 					ProductGroup = 719472EB2790960700E506A9 /* Products */;
 					ProjectRef = 719472EA2790960700E506A9 /* 4_Trees.xcodeproj */;
 				},
+				{
+					ProductGroup = 711DE4562791E7D700B56DC8 /* Products */;
+					ProjectRef = 711DE4552791E7D700B56DC8 /* Binary trees.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -131,6 +152,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		711DE45E2791E7D700B56DC8 /* Binary trees */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Binary trees";
+			remoteRef = 711DE45D2791E7D700B56DC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		719472A4279048A400E506A9 /* 1_Stacks */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
