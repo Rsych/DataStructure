@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		711DE44B2791E7D700B56DC8 /* Binary trees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary trees"; sourceTree = BUILT_PRODUCTS_DIR; };
+		711DE44B2791E7D700B56DC8 /* 5_Binary trees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5_Binary trees"; sourceTree = BUILT_PRODUCTS_DIR; };
 		711DE44E2791E7D700B56DC8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		711DE44C2791E7D700B56DC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				711DE44B2791E7D700B56DC8 /* Binary trees */,
+				711DE44B2791E7D700B56DC8 /* 5_Binary trees */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		711DE44A2791E7D700B56DC8 /* Binary trees */ = {
+		711DE44A2791E7D700B56DC8 /* 5_Binary trees */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 711DE4522791E7D700B56DC8 /* Build configuration list for PBXNativeTarget "Binary trees" */;
+			buildConfigurationList = 711DE4522791E7D700B56DC8 /* Build configuration list for PBXNativeTarget "5_Binary trees" */;
 			buildPhases = (
 				711DE4472791E7D700B56DC8 /* Sources */,
 				711DE4482791E7D700B56DC8 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "Binary trees";
+			name = "5_Binary trees";
 			productName = "Binary trees";
-			productReference = 711DE44B2791E7D700B56DC8 /* Binary trees */;
+			productReference = 711DE44B2791E7D700B56DC8 /* 5_Binary trees */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 711DE4462791E7D700B56DC8 /* Build configuration list for PBXProject "Binary trees" */;
+			buildConfigurationList = 711DE4462791E7D700B56DC8 /* Build configuration list for PBXProject "5_Binary trees" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				711DE44A2791E7D700B56DC8 /* Binary trees */,
+				711DE44A2791E7D700B56DC8 /* 5_Binary trees */,
 			);
 		};
 /* End PBXProject section */
@@ -267,7 +267,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		711DE4462791E7D700B56DC8 /* Build configuration list for PBXProject "Binary trees" */ = {
+		711DE4462791E7D700B56DC8 /* Build configuration list for PBXProject "5_Binary trees" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				711DE4502791E7D700B56DC8 /* Debug */,
@@ -276,7 +276,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		711DE4522791E7D700B56DC8 /* Build configuration list for PBXNativeTarget "Binary trees" */ = {
+		711DE4522791E7D700B56DC8 /* Build configuration list for PBXNativeTarget "5_Binary trees" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				711DE4532791E7D700B56DC8 /* Debug */,
