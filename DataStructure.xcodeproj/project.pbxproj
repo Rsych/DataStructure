@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		711DE46A2792EECD00B56DC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711DE4552791E7D700B56DC8 /* 5_Binary trees.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 711DE44B2791E7D700B56DC8;
+			remoteInfo = "5_Binary trees";
+		};
+		711DE49C2792EF1700B56DC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711DE4982792EF1700B56DC8 /* 6_Ordered sets.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 711DE48E2792EF1700B56DC8;
+			remoteInfo = "6_Ordered sets";
+		};
+		711DE4B52792EF3000B56DC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711DE4B12792EF3000B56DC8 /* 7_Sorted arrays.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 711DE4A72792EF3000B56DC8;
+			remoteInfo = "7_Sorted arrays";
+		};
 		719472A3279048A400E506A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7194729F279048A400E506A9 /* 1_Stacks.xcodeproj */;
@@ -39,6 +60,8 @@
 
 /* Begin PBXFileReference section */
 		711DE4552791E7D700B56DC8 /* 5_Binary trees.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "5_Binary trees.xcodeproj"; path = "Binary trees/5_Binary trees.xcodeproj"; sourceTree = "<group>"; };
+		711DE4982792EF1700B56DC8 /* 6_Ordered sets.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "6_Ordered sets.xcodeproj"; path = "6_Ordered sets/6_Ordered sets.xcodeproj"; sourceTree = "<group>"; };
+		711DE4B12792EF3000B56DC8 /* 7_Sorted arrays.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "7_Sorted arrays.xcodeproj"; path = "7_Sorted arrays/7_Sorted arrays.xcodeproj"; sourceTree = "<group>"; };
 		7194729F279048A400E506A9 /* 1_Stacks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 1_Stacks.xcodeproj; path = 1_Stacks/1_Stacks.xcodeproj; sourceTree = "<group>"; };
 		719472B827904D9400E506A9 /* 2_Linked lists.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "2_Linked lists.xcodeproj"; path = "2_Linked lists/2_Linked lists.xcodeproj"; sourceTree = "<group>"; };
 		719472D127907A0000E506A9 /* 3_Queues and deques.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "3_Queues and deques.xcodeproj"; path = "3_Queues and deques/3_Queues and deques.xcodeproj"; sourceTree = "<group>"; };
@@ -46,6 +69,30 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		711DE4632792EECD00B56DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711DE46B2792EECD00B56DC8 /* 5_Binary trees */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		711DE4992792EF1700B56DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711DE49D2792EF1700B56DC8 /* 6_Ordered sets */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		711DE4B22792EF3000B56DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711DE4B62792EF3000B56DC8 /* 7_Sorted arrays */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		719472852790488200E506A9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +101,8 @@
 				719472D127907A0000E506A9 /* 3_Queues and deques.xcodeproj */,
 				719472EA2790960700E506A9 /* 4_Trees.xcodeproj */,
 				711DE4552791E7D700B56DC8 /* 5_Binary trees.xcodeproj */,
+				711DE4982792EF1700B56DC8 /* 6_Ordered sets.xcodeproj */,
+				711DE4B12792EF3000B56DC8 /* 7_Sorted arrays.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +174,18 @@
 					ProductGroup = 719472EB2790960700E506A9 /* Products */;
 					ProjectRef = 719472EA2790960700E506A9 /* 4_Trees.xcodeproj */;
 				},
+				{
+					ProductGroup = 711DE4632792EECD00B56DC8 /* Products */;
+					ProjectRef = 711DE4552791E7D700B56DC8 /* 5_Binary trees.xcodeproj */;
+				},
+				{
+					ProductGroup = 711DE4992792EF1700B56DC8 /* Products */;
+					ProjectRef = 711DE4982792EF1700B56DC8 /* 6_Ordered sets.xcodeproj */;
+				},
+				{
+					ProductGroup = 711DE4B22792EF3000B56DC8 /* Products */;
+					ProjectRef = 711DE4B12792EF3000B56DC8 /* 7_Sorted arrays.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -133,6 +194,27 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		711DE46B2792EECD00B56DC8 /* 5_Binary trees */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "5_Binary trees";
+			remoteRef = 711DE46A2792EECD00B56DC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		711DE49D2792EF1700B56DC8 /* 6_Ordered sets */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "6_Ordered sets";
+			remoteRef = 711DE49C2792EF1700B56DC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		711DE4B62792EF3000B56DC8 /* 7_Sorted arrays */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "7_Sorted arrays";
+			remoteRef = 711DE4B52792EF3000B56DC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		719472A4279048A400E506A9 /* 1_Stacks */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
